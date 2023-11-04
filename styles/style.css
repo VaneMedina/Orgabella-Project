@@ -290,14 +290,15 @@ html.open .nav-list {
 }
 
 .hero-paragraph {
-    font-size: 3rem;
+    font-size: var(--size-3);
+    font-weight: 500;
     margin-left: auto;
-    padding: 4rem 0;
+    padding: 2rem 0 3rem;
     width: 65rem;
 }
 
 .hero-title {
-    margin-bottom: 3rem;
+    margin-bottom: var(--size-3);
     text-transform: capitalize;
     white-space: nowrap;
 }
@@ -636,8 +637,12 @@ html.open .nav-list {
 
 .btn-close-cart {
     cursor: pointer;
-    font-size: var(--size-3);
+    font-size: var(--size-4);
     text-align: end;
+}
+
+.btn-close {
+    font-size: var(--size-4);
 }
 
 /* Helpers */
@@ -711,6 +716,8 @@ html.open .nav-list {
         display: none;
     }
 }
+
+/* preloader */
 
 .preloader {
     background-color: var(--color-primary);

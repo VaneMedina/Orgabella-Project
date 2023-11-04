@@ -1,24 +1,23 @@
 [
     {
         "id": "cream-1",
-        "title": "maaagico",
-        "price": "600",
-        "image": "./assets/images/kadarius-seegars-Mxy5gokl8mE-unsplash.jpg",
-        "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de t.",
-        "stock": "5"
+        "title": "Crema Hidratante",
+        "price": "30",
+        "image": "./assets/images/pexels-humanist-beauty-10695207.jpg",
+        "description": "Crema de Aloe Vera: Esta crema está enriquecida con aloe vera, conocido por sus propiedades hidratantes y calmantes. Es ideal para aliviar la piel seca, irritada o quemada por el sol."
     },
     {
         "id": "cream-2",
-        "title": "titulo",
-        "price": "400",
-        "image": "./assets/images/lauren-sepsi-74IZXk_1LI8-unsplash.jpg",
-        "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de t."
+        "title": "Crema de Karité",
+        "price": "23",
+        "image": "./assets/images/pexels-nora-topicals-7038144.jpg",
+        "description": "Crema de Caléndula: La crema de caléndula contiene extracto de caléndula, que es conocido por sus propiedades antiinflamatorias y regeneradoras de la piel. Es excelente para tratar irritaciones y erupciones cutáneas."
     },
     {
         "id": "cream-3",
-        "title": "titulo",
-        "price": "400",
-        "image": "./assets/images/liubov-ilchuk-x_ujfGcrAyU-unsplash.jpg",
-        "description": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de t."
+        "title": "Crema de Manzanilla",
+        "price": "60",
+        "image": "./assets/images/pexels-pinkwitch-诸葛筱暖-12851388.jpg",
+        "description": "Crema de Coco y Manteca de Karité: Esta crema es rica en aceite de coco y manteca de karité, proporcionando una hidratación profunda y un aroma tropical. Es ideal para pieles secas y deshidratadas."
     }
 ]
