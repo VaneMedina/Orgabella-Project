@@ -29,11 +29,12 @@ export default class {
 
     onLoaded () {
         this.element.classList.add('preloader-close')
+        //add class to html for that not can not scroll the page
         document.documentElement.classList.add('preloader-open')
 
         setTimeout(() => {
             this.element.parentNode.removeChild(this.element)
             document.documentElement.classList.remove('preloader-open')
-          }, 1000)
+          }, 2000)
     }
 }

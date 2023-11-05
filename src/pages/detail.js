@@ -113,7 +113,7 @@ export default class {
                 this.cart[this.product.id] = { ...this.product }
                 
                 this.showCart()
-                this.getTotal()
+                //this.getTotal()
                 this.showTotalInCart()
             })
         }

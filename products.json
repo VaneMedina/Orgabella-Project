@@ -19,5 +19,61 @@
         "price": "60",
         "image": "./assets/images/pexels-pinkwitch-诸葛筱暖-12851388.jpg",
         "description": "Crema de Coco y Manteca de Karité: Esta crema es rica en aceite de coco y manteca de karité, proporcionando una hidratación profunda y un aroma tropical. Es ideal para pieles secas y deshidratadas."
+    },
+    {
+        "id": "cream-4",
+        "title": "Crema de Rosa Mosqueta",
+        "price": "50",
+        "image": "./assets/images/pexels-brian-phetmeuangmay-13794470.jpg",
+        "description": "Crema de Rosa Mosqueta: Esta crema contiene aceite de rosa mosqueta, que es rico en antioxidantes y ácidos grasos esenciales. Es conocida por reducir la apariencia de cicatrices y mejorar la textura de la piel."
+    },
+    {
+        "id": "cream-5",
+        "title": "Crema de Propóleo",
+        "price": "35",
+        "image": "./assets/images/pexels-bushra-al-harbi-7989936.jpg",
+        "description": "Crema de Jojoba: El aceite de jojoba es similar al sebo natural de la piel, lo que la hace perfecta para equilibrar la producción de grasa y mantener la piel suave y equilibrada."
+    },
+    {
+        "id": "cream-6",
+        "title": "Crema de Pepino",
+        "price": "25",
+        "image": "./assets/images/pexels-kader-d-kahraman-10514764.jpg",
+        "description": "Crema de Pepino: El pepino es un poderoso antioxidante, y una crema con extracto de pepino verde puede ayudar a proteger la piel contra los daños causados por los radicales libres y reducir el enrojecimiento."
+    },
+    {
+        "id": "cream-7",
+        "title": "Crema de Lavanda",
+        "price": "15",
+        "image": "./assets/images/mathilde-langevin-2ObVEZxUDlc-unsplash.jpg",
+        "description": "Crema de Lavanda: La crema de lavanda combina el aceite esencial de lavanda con ingredientes naturales para promover la relajación y aliviar el estrés. También puede ayudar a calmar la piel irritada."
+    },
+    {
+        "id": "cream-8",
+        "title": "Crema de Caléndula",
+        "price": "10",
+        "image": "./assets/images/annie-spratt-DGlqrcZNtqM-unsplash.jpg",
+        "description": "Crema de Caléndula: La crema de caléndula contiene extracto de caléndula, que es conocido por sus propiedades antiinflamatorias y regeneradoras de la piel. Es excelente para tratar irritaciones y erupciones cutáneas."
+    },
+    {
+        "id": "cream-9",
+        "title": "Crema de Aloe",
+        "price": "30",
+        "image": "./assets/images/mathilde-langevin-FDRaYqiTY1k-unsplash.jpg",
+        "description": "Crema de Aloe Vera: Esta crema está enriquecida con aloe vera, conocido por sus propiedades hidratantes y calmantes. Es ideal para aliviar la piel seca, irritada o quemada por el sol."
+    },
+    {
+        "id": "cream-10",
+        "title": "Crema Verbena",
+        "price": "20",
+        "image": "./assets/images/pexels-pexels-user-16769670.jpg",
+        "description": "Crema de Verbena: La Verbena tiene propiedades antiinflamatorias y calmantes. Una crema de Verbena es útil para reducir la irritación y aliviar la piel sensible."
+    },
+    {
+        "id": "cream-11",
+        "title": "Crema de Jojoba",
+        "price": "70",
+        "image": "./assets/images/pexels-polina-kovaleva-5928020.jpg",
+        "description": "Crema de Jojoba: El aceite de jojoba es similar al sebo natural de la piel, lo que la hace perfecta para equilibrar la producción de grasa y mantener la piel suave y equilibrada."
     }
 ]
