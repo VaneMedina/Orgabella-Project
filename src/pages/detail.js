@@ -7,8 +7,12 @@ export default class {
 
         this.fragment = document.createDocumentFragment()
 
-        this.detail = document.querySelector('#detail')
-        this.detailTemplate = document.querySelector('#detail-template').content
+       
+
+        if (document.querySelector('#detail'))  this.detail = document.querySelector('#detail')
+
+        if (document.querySelector('#detail-template'))  this.detailTemplate = document.querySelector('#detail-template').content
+
         this.btnClose = document.querySelector('.detail-close')
 
         this.iconCart = document.querySelector('#icon-cart')

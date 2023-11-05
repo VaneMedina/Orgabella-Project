@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orgabella Cosmetica | Home</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Karla:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <script defer type="module" src="./src/index.js"></script>
 </head>
 <body>
@@ -94,8 +91,8 @@
             </div>
         </section>
 
-           <!--Cart wrapper-->
-           <div class="cart-wrapper">
+        <!--Cart wrapper-->
+        <div class="cart-wrapper">
             <div class="cart-header flex-between">
                 <div class="cart-total heading-2">
                     <span>Productos</span>
@@ -125,60 +122,27 @@
        <!--Cart template-->
 
        <template id="cart-template">
-        <div class="cart-template-wrapper">
-            <div class="cart-image-wrapper">
-                <img src="" alt="">
-            </div>
-            <div class="cart-content-wrapper">
-                <div class="flex-between">
-                    <h2 class="cart-title heading-2">Titulo</h2>
-                    <div class="price-wrapper heading-2">
-                        <span>$</span>
-                        <span class="price">precio</span>
+            <div class="cart-template-wrapper">
+                <div class="cart-image-wrapper">
+                    <img src="" alt="">
+                </div>
+                <div class="cart-content-wrapper">
+                    <div class="flex-between">
+                        <h2 class="cart-title heading-2">Titulo</h2>
+                        <div class="price-wrapper heading-2">
+                            <span>$</span>
+                            <span class="price">precio</span>
+                        </div>
+                    </div>
+                    <div class="cart-buttons">
+                        <button id="btn-sub" class="btn btn-xs button-secondary btn-sub">-</button>
+                        <span id="button-cart-amount" class="buttons-cart-amount heading-2">1</span>
+                        <button id="btn-add" class="btn btn-xs button-secondary btn-add">+</button>
                     </div>
                 </div>
-                <div class="cart-buttons">
-                    <button id="btn-sub" class="btn btn-xs button-secondary btn-sub">-</button>
-                    <span id="button-cart-amount" class="buttons-cart-amount heading-2">1</span>
-                    <button id="btn-add" class="btn btn-xs button-secondary btn-add">+</button>
-                </div>
+
             </div>
-
-        </div>
-    </template>
-
-            <!--Detail wrapper-->
-            <div id="detail" class="detail-wrapper">
-            </div>
-
-             <!--Detail template-->
-             <template id="detail-template">
-                <div class="detail-template-wrapper">
-                    <div class="detail-image-wrapper">
-                        <img src="" alt="">
-                    </div>
-                    <div class="detail-content">
-                        <div class="detail-content-wrapper flex-between">
-                            <div class="detail-title">
-                                <h2 class="heading-8 font-highlight">Detail</h2>
-                                <span class="heading-2">250ml/500ml</span>
-                            </div>
-                            <div class="detail-price">
-                                <span>$</span>
-                                <span class="price">500</span>
-                            </div>
-                        </div>
-                        <div class="detail-description">
-                            <p class="description">Una descripcion</p>
-                        </div>
-    
-                        <div class="buttons">
-                            <button class="btn btn-lg button-secondary btn-cart" type="button">Agregar al carrito</button>
-                        </div>
-
-                    </div>
-                </div>
-            </template>
+        </template>
 
         <div class="detail-close">
             <button class="btn btn-xs btn-close" id="btn-close" type="button">Salir</button>
